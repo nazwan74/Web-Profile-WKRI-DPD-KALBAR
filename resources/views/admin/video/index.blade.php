@@ -2,6 +2,9 @@
 @section('content')
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h1 class="h3 mb-0">Kelola Video</h1>
+        <a href="{{ route('video.create') }}" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i> Tambah Video
+        </a>
     </div>
     
     @if(session('success'))
@@ -63,4 +66,4 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
-</script> 
+</script>
