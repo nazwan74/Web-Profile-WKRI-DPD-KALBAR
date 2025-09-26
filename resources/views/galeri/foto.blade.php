@@ -151,22 +151,7 @@ document.querySelectorAll('.tilted-card').forEach(function(card) {
   });
 });
 </script>
-<footer class="bg-dark text-white mt-5 py-4">
-    <div class="container text-center">
-        <img src="/images/logo3.png" alt="Logo WKRI" height="40" class="mb-2">
-        <div class="mb-2 fw-bold">WKRI DPD Kalimantan Barat</div>
-        <div class="mb-2 small">
-            Jl. Contoh Alamat No. 123, Kota, Provinsi<br>
-            Email: info@wkri.org | Telp: 0812-3456-7890
-        </div>
-        <div class="mb-2">
-            <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
-        </div>
-        <div class="small text-secondary">&copy; {{ date('Y') }} WKRI. All rights reserved.</div>
-    </div>
-</footer>
+@include('partials.footer')
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html> 
